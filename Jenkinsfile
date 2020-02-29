@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy Application') { 
             steps {
-             bat "mvn clean package deploy -Dmule.version=4.2.2 -Dusername=adeye -Dpassword=Bobu21! -Dworkers=1 -Dworker.type=Micro -Denvironment=Sandbox -Dapplication.name=secondproject -DmuleDeploy"
+             bat "mvn clean package deploy -Dmule.version=4.2.2 -Dusername=adeye -Dpassword=Bobu21! -Dworkers=1 -Dworker.type=Micro -Denvironment=Sandbox -Dapplication.name=secondproject7 -DmuleDeploy"
             }
         }
     }
